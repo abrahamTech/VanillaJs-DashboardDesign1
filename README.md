@@ -29,3 +29,7 @@ Need to paste this code line in the CSS file
 
 #### YT Project
 [ASMR Programming - Responsive Admin Dashboard with Light & Dark Mode - No Talking](https://www.youtube.com/watch?v=YJTKlAvbDo4)
+
+[Responsive Admin Dashboard Using HTML CSS & JavaScript with Light & Dark Mode](https://www.youtube.com/watch?v=BOF79TAIkYQ)
+
+[Responsive Admin Dashboard using HTML CSS and JavaScript with Light & Dark Mode](https://www.youtube.com/watch?v=FaBY9yAUtdg)
