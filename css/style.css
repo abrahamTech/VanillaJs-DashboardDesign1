@@ -146,6 +146,10 @@ aside .toggle .logo img {
     height: 2rem;
 }
 
+aside .toggle .logo h2 {
+    font-size: 1.3rem;
+}
+
 aside .toggle .close {
     padding-right: 1rem;
     display: none;
