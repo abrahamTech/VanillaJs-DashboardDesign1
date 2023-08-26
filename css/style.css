@@ -125,7 +125,7 @@ b {
 /* <============== SIDEBAR ==============> */
 
 aside {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100vh;
 }
 
@@ -558,4 +558,67 @@ main .recent-orders a {
     display: flex;
     align-items: center;
     gap: 0.6rem;
+}
+
+
+/* <============== Reponsive Code ==============> */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 95%;
+        grid-template-columns: 7rem auto 23rem;
+    }
+
+    aside .logo h2 {
+        display: none;
+    }
+
+    aside .sidebar h3 {
+        display: none;
+    }
+
+    aside .sidebar a {
+        /* border: 1px solid #f00; */
+        width: 5.6rem;
+    }
+
+    aside .sidebar a:last-child {
+        position: relative;
+        margin-top: 1rem;
+    }
+
+
+    /* Main */
+    main .analyse {
+        grid-template-columns: 1fr;
+    }
+
+    main .new-users .user-list .user {
+        /* border: 1px solid #f00; */
+        flex-basis: 40%;
+    }
+    
+    main .recent-orders {
+        /* border: 1px solid #f00; */
+        width: 94%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 2rem 0 0 0.8rem;
+    }
+    
+    main .recent-orders table {
+        /* border: 1px solid #f00; */
+        width: 83vw;
+    }
+
+    main table thead tr th:last-child,
+    main table thead tr th:first-child {
+        display: none; 
+    }
+
+    main table tbody tr td:last-child,
+    main table tbody tr td:first-child {
+        display: none;
+    }
+    
 }
